@@ -1,0 +1,198 @@
+
+
+/*-----------general style-----------*/
+.html {
+    font-size: 62.5%;
+    
+    
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/*================HERO SECTION================*/
+
+.hero-section {
+    background-color: white;
+}
+.wrapper-hero{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.logo {
+    padding-left: 8.5rem;
+    
+}
+.logo img {
+    width: 15rem;
+    height: 10rem;
+   
+}
+.nav-first {
+    display: flex;
+    margin-top: 2rem;
+    
+}
+
+.first-nav {
+    margin-left: 11rem;
+    margin-top: 1.2rem;
+    
+}
+
+.first-nav span {
+    padding-right: 2.5rem;
+    font-size: 1.3rem; 
+    color:#4c8c94; 
+}
+
+.nav-first button {
+    text-transform: uppercase;
+    background-color: white;
+    width: 18rem;
+    border-radius: 2.2rem;
+    border:3px solid #5c3c92;
+    height: 4rem;
+    margin-left: 8.3rem;
+}
+.nav-first button a {
+    color: #4c8c94; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.nav-first button a:hover {
+    cursor: pointer;
+    color:#5c3c92;
+}
+
+
+.nav-secound {
+    display: flex;
+    margin-left: 35rem;
+    margin-top: -3.5rem;
+}
+.nav-secound li {
+    list-style-type: none;
+    margin-right: 3.3rem;
+    
+}
+
+.nav-secound li a {
+    text-decoration: none;
+    color:#4c8c94;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-right: 3.3rem;
+}
+.nav-secound li a:hover {
+    color:#5c3c92; 
+}
+
+.dropdown {
+    margin-top: -1.4rem;
+    overflow: hidden;
+    padding-right: 4rem;
+    
+}
+  
+.dropdown .dropbtn {
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    color: #4c8c94;
+    padding: 1.4rem 1.6rem;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+    text-transform: uppercase;
+}
+  
+.dropbtn:hover {
+    color:#614691;
+}
+
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 16rem;
+    z-index: 1;
+}
+  
+
+.dropdown-content a {
+    float: none;
+    color:#629da5;
+    padding: 0.9rem 1.2rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 1.2rem;
+    
+}
+  
+.dropdown-content a:hover {
+    color:#614691;
+    background-color: white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+
+/*-------CTA--------*/
+
+.cta {
+    margin-top: 7rem;
+    
+}
+
+.cta h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color:#4c8c94;
+    
+}
+
+.cta p {
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+    color:#4c8c94;
+    
+}
+.cta button {
+    padding: 1.5rem 2.2rem;
+    text-transform: uppercase;
+    background:#5c3c92;
+    width: 16rem;
+    border-radius: 1rem;
+    border:none;
+    margin-top: 2rem;
+}
+
+.cta button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.cta button:hover {
+    background-color:#51219c;
+    cursor: pointer;
+}
+
+
+.hero-img img {
+    width: 50rem;
+    height: 42rem;
+    margin-left: 11rem;
+}
