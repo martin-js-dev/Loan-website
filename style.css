@@ -382,3 +382,167 @@ body {
     
 }
 
+
+
+/*------------------HOW IT WORKS------------------*/
+.how-it-works {
+    padding-bottom: 5rem;
+}
+.how-it-works h1 {
+    text-align: center;
+    margin-top: 7rem;
+    color:#4c8c94;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.how-it-works h1:before {
+    border-top: 5px solid #ffd700;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 1.5rem;
+    top: 90%; left: 0; right: 0; bottom: 0;
+    width: 15%;
+    z-index: -1;
+}
+
+.how-it-works p {
+    text-align: center;
+    margin-top: 3.5rem;
+    color:#56848a;
+    font-size: 1.3rem;
+    margin-bottom: 7rem;
+}
+
+
+.full-process {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 21rem;
+    width: 75%;
+}
+
+.step, .step1, .step2, .step3 {
+    width: 20rem;
+    margin-right: 6rem;
+    text-align: center;
+}
+
+.full-process h3 {
+    color:#4c8c94;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+     
+}
+
+.full-process p {
+    color:#4c8c94;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin:0;
+    
+}
+
+
+
+.step1, .step3 {
+    margin-top: 4rem;
+}
+
+.hr {
+    
+    width: 23rem;
+    height: 90px;
+    border: dashed 2px #000;
+    border-color: #ffd700 transparent transparent transparent;
+    border-radius: 50%/60% 60% 0 0;
+    transform: rotate(180deg);
+    margin-left: -10rem;
+    position: relative;
+  }
+  
+.hr1  {
+    width: 23rem;
+    height: 90px;
+    border: dashed 2px #000;
+    border-color: #ffd700 transparent transparent transparent;
+    border-radius: 50%/60% 60% 0 0;
+    transform: rotate(360deg);
+    margin-left: -10rem;
+    position: relative;
+}
+  
+
+/*---------------------WHY US-----------------------*/
+
+.wrapper-why-us {
+    display: flex;
+    margin-top: 5rem;
+}
+
+
+.why-us-img img {
+    width: 60rem;
+    height: 45rem;
+}
+
+.why-us-info {
+    background-color: #614691;
+    width: 65%;
+    margin-left: -5rem;
+    height: 42rem;
+    width: 72rem;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 28% 100%, 0 0); 
+
+}
+
+.why-us-info h1 {
+    margin-top: 3.5rem;
+    margin-left: 23rem;
+    color:#fff;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.why-us-info p{
+    margin-left: 23rem;
+    color:#fff;
+    margin-bottom: 2rem;
+}
+
+.why-us-info button{
+    margin-left: 23rem;
+    padding: 1.1rem 1.8rem;
+    text-transform: uppercase;
+    background:#fff;
+    width: 14rem;
+    border-radius: 1rem;
+    border:none;
+    margin-top: 1rem;
+}
+
+
+.why-us-info button a {
+    color: #51219c;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.why-us-info button:hover {
+    cursor: pointer;
+    background:rgb(216, 206, 206);
+}
+
+.list{
+    
+    color:#fff;
+    
+}
+
+.list li {
+    text-decoration: none;
+}
+
+
+
