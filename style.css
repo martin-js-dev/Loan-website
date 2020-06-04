@@ -993,3 +993,397 @@ body {
     border-radius: 15%;
     cursor: pointer;
 }
+
+/*----------------------CONTACT US---------------------*/
+
+
+
+.wrapper-contact{
+    display: flex;
+    margin-left: 8rem;
+  
+}
+
+
+.right-contact{
+    background-color: #fff;
+    padding-bottom: 4rem;
+}
+.wrapper-contact:before {
+    content:"";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color:rgb(238, 229, 229);
+    margin-top: -10rem;
+    margin-left: -15rem;
+    
+    
+}
+.wrapper-contact:after {
+    content:"";
+    width: 10rem;
+    height: 20rem;
+    background-size: 20px 30px;
+    background-image: radial-gradient(circle, #5c3c92 2px, rgba(0, 0, 0, 0) 1px);
+    margin-left:32rem;
+    margin-top: -15rem;
+}
+.wrapper-contact1 h1 {
+    font-size: 3rem;
+    margin-left: 57rem;
+    margin-top: 8rem;
+    color:#4c8c94;
+    position: relative;
+    padding-bottom: 5rem;
+}
+
+.wrapper-contact1 h1:before {
+    border-top: 5px solid #ffd700;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    top: 35%; left: 0; right: 0; bottom: 0;
+    width: 15%;
+    z-index: -1;
+}
+
+
+.right-contact p {
+    color:#56848a;
+    margin-left: 10rem;
+    font-size: 1.8rem;
+}
+.contact-images{
+    margin-right: -7rem;
+}
+.contact-img1 img {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 26rem;
+    margin-top: 10.5rem;
+    opacity: 0.8;
+    
+    
+}
+
+.contact-img2 img {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 27rem;
+    margin-top: 25rem;
+    margin-top: 5rem;
+    opacity: 0.8;
+    
+}
+.contact-images1 {
+    margin-top: -47rem;
+    margin-left: -2rem;
+}
+.contact-img3 img {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 95rem;
+    margin-top: 5rem;
+    opacity: 0.8;
+    
+    
+}
+
+.contact-img4 img {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 96.5rem;
+    margin-top: 5rem;
+    opacity: 0.8;
+    
+    
+}
+.contact-container {
+    width: 40rem;
+    height: 40rem;
+    margin-left: 11rem;
+    padding: 2rem;
+    margin-top: -4rem;
+}
+
+.name, .email, .phone, .message {
+    width: 30rem;
+    padding: 1.2rem;
+    border: 1px solid #ccc;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+    resize: vertical;
+}
+
+.phone {
+    margin-left: 0;
+}
+
+.message {
+    height: 10rem;
+    margin-left: 0;
+}
+
+
+.column2 {
+    float: left;
+    width: 70%;
+    margin-top: 0.6rem;
+    padding: 2rem;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.contact-button button {
+    height: 4rem;
+    width: 32.5rem;
+    margin-top: 1rem;
+    border:2px solid #51219c;
+    background-color: #fff;
+    text-transform: uppercase;
+    color:#51219c;
+    font-size: 1.4rem;
+    
+    
+}
+
+.contact-button button:hover  {
+    background:rgb(216, 206, 206);
+    cursor: pointer;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #56848a;
+}
+
+/*---------------------SOCIAL PROOF--------------------*/
+
+.wrapper-proof {
+    margin-left: 13rem;
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+}
+
+
+.partners img {
+    padding-right: 7.5rem;
+    padding-top: 5rem;
+    width:16rem;
+    height:3.5rem;
+    opacity: 0.3;
+}
+/*----------------FOOTER------------------------*/
+
+
+.wrapper-footer{
+    position: relative;
+    background-color:#5c3c92; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height:32rem;
+    margin-bottom: 5rem;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    margin-top: 10rem;
+}
+  
+.footer{
+    position: absolute;
+    margin-left: 10rem;
+    color:white;
+    
+    
+}
+
+.footer h1 {
+    margin-top: 10rem;
+    margin-left: 30rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.footer button {
+    background-color: white;
+    width: 20rem;
+    border:3px solid #5c3c92;
+    height: 4.7rem;
+    margin-left: 45rem;
+    margin-top: 1rem;
+}
+
+.footer button:hover {
+    background:rgb(216, 206, 206);
+    cursor: pointer;
+}
+.footer a {
+    color:#51219c;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+
+
+.footer-wrap {
+    background-color:#fff;
+}
+
+  
+.footer-col img {
+    height: 9rem;
+    width: 20rem;
+    margin-top: 1.6rem;
+    
+
+}
+
+
+.page-footer{
+    display: flex;
+    padding-left: 15rem;
+
+}
+
+
+.footer-col {
+    width: 25%;
+    height: 18.5rem;
+    float: left;
+    color: #1d3c45;;
+    
+}
+.footer-col p {
+    font-size: 1.8rem;
+    color:#4c8c94;
+}
+.footer-col span {
+    display: flex;
+}
+
+.footer-col span p {
+    color: #4c8c94;
+}
+
+
+.footer-col ul li {
+    font-size: 1.5rem;
+    list-style-type: none;
+    color:#56848a;
+    margin-left: -3rem;
+}
+
+.footer-col h3 {
+    color:#4c8c94;
+}
+.page-footer h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-right: 5rem;
+    
+}
+
+.page-footer h3::after {
+    content: '.';
+    font-size: 0;
+    width: 80%;
+    height: 2px;
+    background: #ffd700;
+    display: block;
+    margin: 1.5rem 0;
+}
+
+.page-footer li {
+    font-size: 1.3rem;
+    color: #56848a;
+    line-height: 1.6;
+}
+.page-footer li:hover {
+    color: #5c3c92;
+    cursor: pointer;
+}
+
+
+.wrapper1 {
+    padding-top: 1rem;
+    width: 30rem;
+    height: 5rem;
+    display: flex;
+
+}
+
+.wrapper1 span {
+    color:#56848a;
+}
+
+
+.text {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    padding-right: 3.5rem;
+    color: #56848a;
+}
+
+.social1 {
+    display: flex;
+    margin-left: 18rem;
+    
+
+}
+
+.social1 li {
+    margin-right: 2.5rem;
+    list-style-type: none;
+    padding: 1rem;
+
+}
+
+.copy {
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    color:#fff;
+}
+
+.ending {
+    display: flex;
+    margin-top: 20rem;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+
+    
+}
+
+.links {
+    display: flex;
+    font-size: 1.3rem;
+    color:#3d5a63;
+    margin-left: 22rem;
+    
+}
+
+.links p {
+    padding-right: 2.2rem;
+}
+
+.ending {
+    background-color: #5c3c92;
+}
+.ending p a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;  
+}
+
+.ending p a:hover {
+    color: #56848a;
+}
+  
